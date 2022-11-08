@@ -1,15 +1,24 @@
-body{
+*{
   margin: 0;
-  color: #40514E;
+  padding: 0;
+}
+
+.wraper{
+  width: 100%
+}
+
+body{
   text-align: center;
   font-family: Merriweather,serif;
 }
+
 h1{
   margin: 50px auto 0 auto;
   font-size: 90px;
   color: #66BFBF;
   font-family: Sacramento,cursive;
 }
+
 h2{
   font-family: Montserrat,sans-serif;
   color: #66BFBF;
@@ -17,137 +26,124 @@ h2{
   font-weight: normal;
   padding-bottom: 10px;
 }
+
 h3{
   font-family: Montserrat,sans-serif;
   color: #11999E;
 }
-.top-container{
-  background-color: #E4F9F5;
+
+.first-container{
   position: relative;
   padding-top: 100px;
+  width: auto;
+  background-color: #E4F9F5
 }
-p{
-  line-height: 2;
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
-hr{
-  border: dotted #EAF6F6 6px;
-  border-bottom: none;
-  width: 10%;
-  margin: 100px auto;
+
+.bottam-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
-.hello{
-  text-align: left;
+
+.second-container{
+  width: auto;
+  margin: 0 210px;
 }
-.intro{
-  text-align: left;
-}
-.objective{
-  text-align: left;
-  width: 100%;
-}
+
 .image-uchit{
   border: 0;
   height: 200px;
   width: 200px;
   display: inline-block;
 }
-.middle-container{
-  margin: 100px 0;
+
+.hello{
+  text-align: left;
 }
-.profile-table{
-  margin: auto 350px auto 350px;
+
+.intro{
+  text-align: left;
 }
-.bottom-container{
-background-color: #66BFBF;
-height: 100px;
-padding: 50px 0 20px;
-}
-.top-cloud{
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
-.bottam-cloud{
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-}
-.skills{
-  text-align: center;
-}
-.skill-row{
+
+.objective{
+  text-align: left;
   width: 100%;
-  margin: 100px auto 100px auto;
-  text-align: center;
 }
-.footer-link{
-  color: #11999E;
-  margin: 40px;
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: auto;
 }
+
+.third-container{
+  width: auto;
+  margin: 50px 200px;
+}
+
 .skill-table{
-  margin: auto 250px;
-}
-.table-first{
   text-align: left;
-  width: 700px;
 }
-.table-second{
-  text-align: left;
-  width: 700px;
+
+.forth-container{
+  width: auto;
+  margin: 50px 200px;
 }
-.code-image{
-  width: 25%;
-  margin-right: 100px;
-}
-.chilli-image{
-  width: 25%;
-  float: right;
-  margin-left: 40px;
-}
-.exp-table{
-  text-align: center;
-  margin: auto 350px;
-}
+
 .e-table{
   text-align: left;
+}
+
+.heading-color{
   color: #11999E;
 }
-.e-table ul{
-  color: black;
+
+.fifth-container{
+  width: auto;
+  margin: 50px 200px;
 }
+
 .education{
+  text-align: left;
+  padding-top: 30px;
+  margin-left: 347px;
+}
+
+.sixth-container{
+  width: auto;
+  margin: 50px 200px;
   text-align: center;
-  color: #11999E;
 }
-.education-table{
-  text-align: center;
-  margin: auto 550px;
-  width: 100%;
+
+.detail-table{
+  margin: 0 260px;
 }
-.education-table td{
-  color: black;
-}
-.message-table{
-  text-align: center;
-  margin: auto 450px;
-}
-.contact-me{
-  margin: 20px;
-}
-.contact-message{
-  width: 40%;
-  margin: 40px auto 60px;
-  color: #11999E;
-}
+
 a{
   text-decoration: none;
   color: #11999E;
   margin: 10px 20px;
   font-family: Montserrat,sans-serif;
 }
+
 a:hover{
   color: #EAF6F6;
 }
+
+.seventh-container{
+  width: 100%;
+  text-align: center;
+  background-color: #66BFBF;
+  /* height: 100px; */
+}
+
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -174,6 +170,7 @@ a:hover{
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
 .copy-right{
   color: #EAF6F6;
   font-size: 0.75rem;
